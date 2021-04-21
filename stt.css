@@ -1,0 +1,35 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; 
+font-family: 'Montserrat' , sans-serif;}
+.site-headers{
+	width: 100%;
+	height: 100vh;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%); 
+}
+*{
+	background-image: url('corona.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	box-sizing: border-box;}
+nav{
+	width: 90%; height: 90px; display: flex; color: white
+} ]
+.logo{width: 100%; height: 100px;}
+.logo h1{line-height: 100px; padding-left: 100px; padding-down: 300px; }
+.menu{width: 50%; height: 60px; padding-left:700px; padding-down: 20px; }
+.menu ul { width: 120%; height: 100px;
+display: flex; flex-direction: row;
+justify-content: space-around;
+align-items: right; }
+.menu ul li{ padding-left: 600px; list-style: none;  font-size: 20px; font-weight: bold; text-transform: uppercase; padding: 50px; text-decoration: none;}
+section { display: flex; }
+.leftside { width:50%; height: 400px; color: grey;
+  text-align: left; margin-top: 100px; padding:15px; font-color:orange; font-size:19px; font-weight: 600;
+   text-transform: uppercase; }
+.rightside p{ font-size: 1.1rem; padding: 30px 0; }
+.rightside button { margin-top: 180px; position: absolute; right: 900px; width: 200px; height;150px; border:5px dark pink;   text-transform: uppercase font-size: 28px; font-weight:bold;
+color: black; font-size: 20px; text-tranform: uppercase;
+border-radius: 3px; padding: 30px 25px;}
+.rightside button{ 
+   background: linear-gradient(57deg,pink,blue);}
+.menu a.active{color: white;}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+.wrapper{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 30%;
+    transform: translate(-50%,-50%);
+   
+    width: 140%;
+    height: 70%;
+   
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgb(48, 59, 70); 
+    color: white;
+    
+  }
+  
+  .wrapper h2{
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+  }
+  
+  .wrapper .input_field{
+    margin-bottom: 20px;
+  }
+  
+  .wrapper .input_field input[type="text"],
+  .wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+background:white;
+  }
+  
+  .wrapper textarea{
+    resize: none;
+    height: 80px;
+  }
+  
+  .wrapper .btn input[type="submit"]{
+    border: 0px;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: #2b5876;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+
+  }
+
+#error_message{
+    margin-bottom: 20px;
+    background:#aaddff ;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+
+*{
+	background-image: url('futuristic-glowing-low-polygonal-coronavirus-covid-19-cell-isolated-dark-blue-background_67515-889.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	box-sizing: border-box;}
